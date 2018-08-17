@@ -4,7 +4,7 @@
   "description":"{{description}}",
   "author":"{{author}}",
   "dependencies": {
-    "@huangjingjing/axios-fetch": "0.0.1",
+    "@huangjingjing/axios-fetch": "^1.0.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "whatwg-fetch": "^2.0.4"
