@@ -1,8 +1,9 @@
 {
   "presets": ["react", "env", "stage-0"],
-  "plugins": [
-    "transform-decorators-legacy",
-    "transform-runtime",
-    "react-hot-loader/babel"
-  ]
+  "plugins": ["transform-decorators-legacy", "transform-runtime"],
+  "env": {
+    "development": {
+      "plugins": ["react-hot-loader/babel"]
+    }
+  }
 }
